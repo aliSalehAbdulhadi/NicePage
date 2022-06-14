@@ -1,0 +1,31 @@
+{
+  "name": "nicepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliSalehAbdulhadi/NicePage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliSalehAbdulhadi/NicePage/issues"
+  },
+  "dependencies": {
+    "core-js": "^3.22.8",
+    "html-webpack-plugin": "^5.5.0",
+    "lodash": "^4.17.21",
+    "regenerator-runtime": "^0.13.9",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0"
+  },
+  "homepage": "https://github.com/aliSalehAbdulhadi/NicePage#readme"
+}
