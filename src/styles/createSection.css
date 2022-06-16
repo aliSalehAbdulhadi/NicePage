@@ -1,0 +1,36 @@
+#section__create {
+  height: 100vh;
+
+  margin: auto;
+}
+
+.create__orange-svg {
+  height: 70vh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  display: none;
+}
+
+.create__image {
+  height: 70vh;
+}
+
+.create__main--container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.create__text--container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.create__container--h1 {
+}
+
+.create__container--p {
+  width: 50%;
+}
