@@ -1,0 +1,8 @@
+@import "createSection.css";
+@import "welcomeSection.css";
+
+:root {
+  --color-primary: #ea6309;
+  --color-secondary: #292e33;
+  --color-tertiary: #f5f5f5;
+}
