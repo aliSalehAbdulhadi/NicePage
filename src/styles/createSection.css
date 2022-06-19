@@ -1,0 +1,154 @@
+#section__create {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+  height: 100vh;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+.create__orange-svg {
+  position: absolute;
+  z-index: -1;
+  height: 45rem;
+  right: 0rem;
+}
+
+.create__image {
+  position: absolute;
+  height: 40rem;
+  top: 0;
+  right: 0;
+}
+
+.create__text-container {
+  margin-left: 60px;
+  margin-top: 10rem;
+}
+
+.create__text--h1 {
+  font-size: 4em;
+}
+
+.create__text--h2 {
+  font-size: 2.7em;
+  font-weight: lighter;
+}
+
+.create__text--p {
+  line-height: 2;
+  font-size: 1.1em;
+  font-weight: lighter;
+  margin: 2rem 0rem;
+  width: 50%;
+}
+
+.create__button {
+  padding: 1.3rem 3.2rem;
+  background-color: var(--color-secondary);
+  color: white;
+  border-style: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  #section__create {
+    width: 1000px;
+    height: 120vh;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #section__create {
+    width: 800px;
+  }
+
+  .create__image {
+    position: absolute;
+    height: 35rem;
+    top: 0;
+    right: 0;
+  }
+
+  .create__orange-svg {
+    position: absolute;
+    z-index: -1;
+    height: 40rem;
+    right: 0rem;
+  }
+
+  .create__text--p {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #section__create {
+    width: 500px;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .create__image {
+    position: absolute;
+    height: 25rem;
+    top: 3rem;
+    right: 0rem;
+  }
+
+  .create__orange-svg {
+    position: absolute;
+    z-index: -1;
+    height: 27rem;
+    right: 0rem;
+    top: 10rem;
+  }
+  .create__text-container {
+    margin-left: 0px;
+    margin-top: 20rem;
+  }
+
+  .create__text--p {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  #section__create {
+    width: 500px;
+    height: 100vh;
+  }
+
+  .create__image {
+    position: absolute;
+    height: 20rem;
+    top: 6rem;
+    right: 3rem;
+  }
+
+  .create__orange-svg {
+    position: absolute;
+    z-index: -1;
+    height: 22rem;
+    right: 2rem;
+    top: 10rem;
+  }
+  .create__text-container {
+    margin-left: 0px;
+    margin-top: 20rem;
+    margin-left: 70px;
+  }
+  .create__text--h1 {
+    font-size: 2.5em;
+  }
+
+  .create__text--h2 {
+    white-space: nowrap;
+    font-size: 2em;
+  }
+
+  .create__text--p {
+    width: 80%;
+  }
+}
