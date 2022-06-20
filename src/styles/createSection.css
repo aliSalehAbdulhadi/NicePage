@@ -50,6 +50,7 @@
   background-color: var(--color-secondary);
   color: white;
   border-style: none;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1200px) {
