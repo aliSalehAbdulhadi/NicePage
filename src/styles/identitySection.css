@@ -174,4 +174,8 @@
   #section__identity {
     height: 470vh;
   }
+
+  .identity__header-container {
+    margin-bottom: 10rem;
+  }
 }

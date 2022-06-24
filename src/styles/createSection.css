@@ -153,3 +153,9 @@
     width: 80%;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  #section__create {
+    height: 160vh;
+  }
+}

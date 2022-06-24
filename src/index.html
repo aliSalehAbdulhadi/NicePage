@@ -12,7 +12,7 @@
 
     <a id="scroll-up" href="#nav"><img src="./assets/svg/arrow_circle_up_FILL0_wght500_GRAD0_opsz48.svg" alt="arrow up"></a>
 
-    <aside id="side-bar">
+    <aside class="side-bar">
       <div class="side-bar__container">
         <img
         class="side-bar__close"
@@ -256,7 +256,7 @@
           <form class="contact__form">
             <div class="contact__form-input-container">
               <input
-                class="contact__form-input"
+                class="contact__form-input contact__form-input--name"
                 type="text"
                 placeholder="Enter your name"
               />
@@ -264,7 +264,7 @@
 
             <div class="contact__form-input-container">
               <input
-                class="contact__form-input"
+                class="contact__form-input contact__form-input--email"
                 type="email"
                 placeholder="Enter a valid email adress"
               />
@@ -276,8 +276,13 @@
                 placeholder="Enter your message"
               ></textarea>
             </div>
+            <div class="contact__form-status"></div>
             <div class="contact__form-button-container">
-              <button class="contact__form-button">Submit</button>
+              <button type="submit" class="contact__form-button ">Submit</button>
+            </div>
+
+            <div class="contact__form-button-container">
+              <button type="submit" class="contact__form-button contact__form-button--submitting hidden"><img src="./assets/svg/sync_FILL0_wght300_GRAD0_opsz48.svg" alt=""> Submitting...</button>
             </div>
           </form>
         </div>

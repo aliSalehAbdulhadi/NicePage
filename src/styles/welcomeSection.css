@@ -7,6 +7,7 @@
   justify-items: center;
   align-items: center;
   position: relative;
+  padding-bottom: 5rem;
 }
 
 .welcome__image {
@@ -29,7 +30,7 @@
   position: absolute;
   top: 50px;
   left: 60px;
-  padding: 1.7rem 6rem 1.7rem 1rem;
+  padding: 1.7rem 40rem 1.7rem 1rem;
   width: 30rem;
   background-color: var(--color-primary);
   color: white;
@@ -70,7 +71,7 @@
     position: absolute;
     top: 50px;
     left: 60px;
-    padding: 1.5rem 2rem 1.5rem 1rem;
+    padding: 1.5rem 35rem 1.5rem 1rem;
   }
 
   .welcome__paragraph {
@@ -94,7 +95,7 @@
     position: absolute;
     top: 50px;
     left: 60px;
-    padding: 1rem 0rem 1rem 1rem;
+    padding: 1rem 28rem 1rem 1rem;
     width: 50%;
   }
 
@@ -146,9 +147,9 @@
 
   .welcome__header {
     position: absolute;
-    top: 40px;
-    left: 35px;
-    padding: 2.8rem 10rem 2.8rem 1rem;
+    top: 50px;
+    left: 80px;
+    padding: 0.5rem 20rem 0.5rem 1rem;
   }
 
   .welcome__header--h3 {
@@ -196,9 +197,9 @@
 
   .welcome__header {
     position: absolute;
-    top: 40px;
-    left: 103px;
-    padding: 1.2rem 2rem 1.2rem 1rem;
+    top: 50px;
+    left: 125px;
+    padding: 0.5rem 2rem 0.5rem 1rem;
   }
 
   .welcome__header--h3 {
@@ -217,10 +218,10 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
   #section__welcome {
     max-width: 500px;
-    height: 120vh;
+    height: 140vh;
     display: flex;
     flex-direction: column-reverse;
     justify-items: start;
@@ -246,9 +247,9 @@
 
   .welcome__header {
     position: absolute;
-    top: 30px;
-    left: 160px;
-    padding: 1rem 1rem 1rem 1rem;
+    top: 40px;
+    left: 178px;
+    padding: 0.2rem 8rem 0.2rem 1rem;
     width: 30%;
   }
 
