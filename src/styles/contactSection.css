@@ -226,10 +226,6 @@
     align-items: center;
     justify-content: center;
   }
-  .contact__form-button-container {
-  }
-  .contact__form-container {
-  }
 }
 
 @media only screen and (max-width: 320px) {
