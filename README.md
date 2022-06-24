@@ -1,5 +1,5 @@
 # NicePage!
-<ul><b>NicePage</b> is a simple single page website, that is made for the porpuse of exersising my HTML, CSS, and JS skills.<br/>
+<ul><b>NicePage</b> is a simple single-page website, that is made for the purpose of exercising my HTML, CSS, and JS skills.<br/>
   
 <br/>Inspired by: https://nicepage.com/website-design/preview/our-passion-is-bringing-brands-to-life-1087802?device=desktop.</ul>
 
@@ -9,7 +9,7 @@
 
 <ul>
  <li>Fully responsive design</li>
- <li>Simple backend server that is depoloyed on heroku to handle form messages</li>
+ <li>Simple back-end server that is depoloyed on heroku to handle form messages</li>
 </ul>
 
  
