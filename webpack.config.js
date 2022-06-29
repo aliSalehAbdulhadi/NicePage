@@ -16,7 +16,18 @@ module.exports = {
     }),
   ],
   module: {
-    rules: [{ test: /\.css$/, use: ["style-loader", "css-loader"] }],
+    rules: [
+      {
+        test: /\.css$/,
+        include: /stylesheets|node_modules/,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.scss$/,
+        include: /stylesheets/,
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
+    ],
     rules: [
       { test: /\.(?:ico|gif|png|jpg|jpeg|webp)$/i, type: "asset/resource" },
     ],
