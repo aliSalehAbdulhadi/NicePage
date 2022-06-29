@@ -12,6 +12,8 @@ const formButtonSubmitting = document.querySelector(
   ".contact__form-button--submitting",
 );
 
+const url = "https://mock-message-api.herokuapp.com/messagess";
+
 burger.addEventListener("click", () => {
   sideBarOverlay.classList.add("active");
   sideBar.classList.add("slide-animation");
@@ -43,7 +45,7 @@ const getMessage = () => {
 
 const postMessage = async () => {
   try {
-    const res = await fetch("https://mock-message-api.herokuapp.com/messages", {
+    const res = await fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
