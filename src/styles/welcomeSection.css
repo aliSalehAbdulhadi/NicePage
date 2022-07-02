@@ -2,14 +2,15 @@
   margin-left: auto;
   margin-right: auto;
   width: 1100px;
-  height: 70vh;
   display: flex;
   justify-items: center;
   align-items: center;
   position: relative;
   padding-bottom: 5rem;
 }
-
+.welcome__image-container {
+  width: 80%;
+}
 .welcome__image {
   max-width: 100%;
   max-height: 100%;
@@ -62,6 +63,10 @@
   cursor: pointer;
 }
 
+.welcome__button:hover {
+  background-color: var(--color-primary);
+}
+
 @media only screen and (max-width: 1200px) {
   #section__welcome {
     width: 1000px;
@@ -82,13 +87,6 @@
 @media only screen and (max-width: 1000px) {
   #section__welcome {
     width: 800px;
-    height: 55vh;
-  }
-
-  .welcome__image {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: fill;
   }
 
   .welcome__header {
@@ -121,7 +119,6 @@
 @media only screen and (max-width: 800px) {
   #section__welcome {
     width: 500px;
-    height: 120vh;
     display: flex;
     flex-direction: column-reverse;
     justify-items: start;
@@ -129,9 +126,12 @@
     position: relative;
   }
 
+  .welcome__image-container {
+    width: 100%;
+  }
   .welcome__image {
     max-width: 100%;
-    max-height: 80vh;
+    max-height: 100%;
     object-fit: fill;
     margin-top: 7rem;
   }
@@ -149,7 +149,7 @@
     position: absolute;
     top: 50px;
     left: 80px;
-    padding: 0.5rem 20rem 0.5rem 1rem;
+    padding: 0.3rem 20rem 0.3rem 1rem;
   }
 
   .welcome__header--h3 {
@@ -171,7 +171,6 @@
 @media only screen and (max-width: 590px) {
   #section__welcome {
     max-width: 500px;
-    height: 100vh;
     display: flex;
     flex-direction: column-reverse;
     justify-items: start;
@@ -179,9 +178,13 @@
     position: relative;
   }
 
+  .welcome__image-container {
+    width: 70%;
+  }
+
   .welcome__image {
     max-width: 100%;
-    max-height: 50vh;
+    max-height: 100%;
     object-fit: fill;
     margin-top: 7rem;
   }
@@ -221,7 +224,6 @@
 @media only screen and (max-width: 321px) {
   #section__welcome {
     max-width: 500px;
-    height: 140vh;
     display: flex;
     flex-direction: column-reverse;
     justify-items: start;
@@ -231,7 +233,7 @@
 
   .welcome__image {
     max-width: 100%;
-    max-height: 60vh;
+    max-height: 100%;
     object-fit: fill;
     margin-top: 7rem;
   }
@@ -247,9 +249,9 @@
 
   .welcome__header {
     position: absolute;
-    top: 40px;
-    left: 178px;
-    padding: 0.2rem 8rem 0.2rem 1rem;
+    top: 60px;
+    left: 140px;
+    padding: 0.5rem 13rem 0.5rem 1rem;
     width: 30%;
   }
 

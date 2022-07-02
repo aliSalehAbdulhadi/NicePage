@@ -2,7 +2,6 @@
   margin-left: auto;
   margin-right: auto;
   width: 1100px;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -24,15 +23,14 @@
 }
 
 .work__image-container {
-  height: 70vh;
   margin-right: 3rem;
-  overflow: hidden;
+  width: 70%;
 }
 
 .work__image {
-  padding-right: 1rem;
-  height: 100%;
-  object-fit: contain;
+  min-height: 100%;
+  max-width: 100%;
+  object-fit: fill;
 }
 
 .work__features-container {
@@ -41,6 +39,7 @@
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 100px;
   grid-row-gap: 50px;
+  margin-right: 2rem;
 }
 
 .work__feature h2 {
@@ -61,25 +60,16 @@
 @media only screen and (max-width: 1200px) {
   #section__work {
     width: 1000px;
-    height: 120vh;
   }
 
   .work__header {
     width: 100%;
-  }
-
-  .work__image {
-    padding-right: 1rem;
-    height: 100%;
-    width: 99%;
-    object-fit: cover;
   }
 }
 
 @media only screen and (max-width: 1000px) {
   #section__work {
     width: 800px;
-    height: 120vh;
   }
 
   .work__header {
@@ -95,7 +85,7 @@
   .work__image {
     padding-right: 1rem;
     height: 100%;
-    width: 110%;
+    width: 100%;
     object-fit: cover;
   }
 
@@ -103,7 +93,6 @@
     display: flex;
     align-items: center;
     background-color: white;
-    height: 130vh;
     margin-top: 5rem;
     padding-right: 1rem;
     overflow: hidden;
@@ -121,7 +110,6 @@
 @media only screen and (max-width: 800px) {
   #section__work {
     width: 500px;
-    height: 150vh;
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
@@ -131,7 +119,7 @@
     width: 80%;
   }
   .work__image-container {
-    height: 90vh;
+    height: 45vh;
     margin-right: 0rem;
     overflow: hidden;
     width: 100%;
@@ -149,7 +137,6 @@
     flex-direction: column;
     align-items: center;
     background-color: white;
-    height: 130vh;
     margin-top: 5rem;
     padding-right: 0rem;
     overflow: hidden;

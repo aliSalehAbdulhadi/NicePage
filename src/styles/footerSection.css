@@ -1,11 +1,11 @@
 #footer {
-  height: 28vh;
   background-color: #353333;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 3rem 0rem;
 }
 
 #footer h4 {
@@ -25,10 +25,4 @@
 
 #footer a:hover {
   text-decoration: none;
-}
-
-@media only screen and (max-width: 590px) {
-  #footer {
-    height: 45vh;
-  }
 }

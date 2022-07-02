@@ -12,7 +12,7 @@ const formButtonSubmitting = document.querySelector(
   ".contact__form-button--submitting",
 );
 
-const url = "https://mock-message-api.herokuapp.com/messagess";
+const url = "https://mock-message-api.herokuapp.com/messages";
 
 burger.addEventListener("click", () => {
   sideBarOverlay.classList.add("active");
