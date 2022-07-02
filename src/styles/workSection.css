@@ -44,7 +44,8 @@
 
 .work__feature h2 {
   margin: 1rem 0rem;
-  font-size: 1.3em;
+  font-size: 1.2em;
+  letter-spacing: 3px;
 }
 
 .work__feature h3 {

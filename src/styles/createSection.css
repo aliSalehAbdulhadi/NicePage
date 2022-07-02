@@ -51,6 +51,7 @@
   color: white;
   border-style: none;
   cursor: pointer;
+  letter-spacing: 3px;
 }
 
 .create__button:hover {

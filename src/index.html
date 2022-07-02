@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&family=PT+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&family=Courgette&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css" />
     <script defer src="./index.js"></script>
     <title>NicePage</title>
   </head>
   <body>
 
-    <a id="scroll-up" href="#nav"><img src="./assets/svg/arrow_circle_up_FILL0_wght500_GRAD0_opsz48.svg" alt="arrow up"></a>
+    <div id="arrow" title="Return to top">
+      <a  href="#nav"><img src="./assets/svg/arrow_upward_FILL0_wght700_GRAD200_opsz40.svg" alt="arrow up"></a>
+    </div>
 
     <aside class="side-bar">
       <div class="side-bar__container">
@@ -33,6 +39,7 @@
             src="./assets/svg/menu_FILL0_wght400_GRAD0_opsz48.svg"
             alt="Navbar menu"
             class="nav__burger-menu"
+            title="Navbar menu"
           />
           <form class="nav__form" action="search">
             <input class="nav__search-bar" placeholder="Search" type="text" />

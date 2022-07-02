@@ -9,7 +9,7 @@
   padding-bottom: 5rem;
 }
 .welcome__image-container {
-  width: 80%;
+  width: 130%;
 }
 .welcome__image {
   max-width: 100%;
@@ -31,7 +31,7 @@
   position: absolute;
   top: 50px;
   left: 60px;
-  padding: 1.7rem 40rem 1.7rem 1rem;
+  padding: 1.7rem 35rem 1.7rem 1rem;
   width: 30rem;
   background-color: var(--color-primary);
   color: white;
@@ -40,6 +40,8 @@
 .welcome__header--h3 {
   margin-bottom: 1rem;
   font-size: 1.2em;
+  white-space: nowrap;
+  letter-spacing: 3px;
 }
 
 .welcome__header--h1 {
@@ -52,6 +54,7 @@
   line-height: 2;
   margin-top: 15rem;
   margin-bottom: 2rem;
+  font-style: italic;
 }
 
 .welcome__button {
@@ -61,6 +64,7 @@
   color: white;
   font-weight: bold;
   cursor: pointer;
+  letter-spacing: 3px;
 }
 
 .welcome__button:hover {
@@ -76,7 +80,7 @@
     position: absolute;
     top: 50px;
     left: 60px;
-    padding: 1.5rem 35rem 1.5rem 1rem;
+    padding: 1.5rem 30rem 1.5rem 1rem;
   }
 
   .welcome__paragraph {
@@ -93,7 +97,7 @@
     position: absolute;
     top: 50px;
     left: 60px;
-    padding: 1rem 28rem 1rem 1rem;
+    padding: 1rem 23rem 1rem 1rem;
     width: 50%;
   }
 

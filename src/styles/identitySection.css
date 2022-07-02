@@ -25,9 +25,10 @@
 }
 .identity__header--h3 {
   font-weight: lighter;
-  font-size: 1.2em;
+  font-size: 1.05em;
   line-height: 1.7;
   width: 60%;
+  font-style: italic;
 }
 
 .identity__cards-container {
@@ -59,10 +60,11 @@
 }
 
 .identity__card-text--h3 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: lighter;
   line-height: 1.7;
   margin-bottom: 1rem;
+  font-style: italic;
 }
 
 .identity__card-button {

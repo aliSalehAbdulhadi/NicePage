@@ -21,6 +21,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
 }
 body {
   background-color: var(--color-tertiary);
@@ -30,6 +31,11 @@ body {
 #nav {
   background-color: white;
   border: 0.5px solid rgb(168, 162, 162);
+}
+.nav__logo {
+  font-family: "Courgette", cursive;
+  font-size: 2em;
+  opacity: 50%;
 }
 .nav__main {
   display: flex;
@@ -79,16 +85,26 @@ input::-webkit-input-placeholder {
   object-fit: fill;
 }
 
-#scroll-up {
+#arrow {
   position: fixed;
   bottom: 50px;
   right: 100px;
+  border-radius: 50%;
+  padding: 0.5rem;
+  box-shadow: #292e33 0px 1px 3px;
+  cursor: pointer;
+  user-select: none;
+  opacity: 50%;
+  background-color: white;
 }
 
-#scroll-up:hover {
-  transform: translateY(-5px);
-  transition: all 0.2s ease-in-out;
-  z-index: 9;
+#arrow img {
+  height: 2rem;
+  width: 2.2rem;
+}
+
+#arrow:hover {
+  box-shadow: #292e33 0px 1px 7px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -121,7 +137,7 @@ input::-webkit-input-placeholder {
     height: 2.1rem;
   }
 
-  #scroll-up {
+  #arrow {
     position: fixed;
     bottom: 50px;
     right: 50px;
