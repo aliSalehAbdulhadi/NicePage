@@ -9,7 +9,7 @@
 
 <ul>
  <li>Fully responsive design</li>
- <li>Simple back-end server that is depoloyed on heroku to handle form messages</li>
+ <li>Simple back-end server depoloyed on heroku to handle form messages</li>
 </ul>
 
  
