@@ -14,7 +14,8 @@
 
  
  # Sample
-![NicePage](https://user-images.githubusercontent.com/97849626/175645340-54097d2b-815e-4448-975d-a32159ca1561.jpg)
+![nicepagenewpic](https://user-images.githubusercontent.com/97849626/177012685-fedc1ba6-1930-4c2b-bee8-67c21b41627f.jpg)
+
 
 
 
